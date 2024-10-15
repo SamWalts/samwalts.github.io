@@ -42,7 +42,15 @@ end
 ```
 # Algorithms
 
+
+
 Some more stuff will go here. Inlcude table, or just take an image??
+| Type of Search      | Original Artifact Time (s) | Enhancement 1 Time (s) | Enhancement 2 Time (s) |
+|:--------------------|:---------------------------|:-----------------------|:-----------------------|
+| Water               | 0.0140 | 0  | 0.0065 |
+| Mountain / Wilderness | 0.0120   | 0  | 0.0055 |
+| Disaster / Tracking | 0.0105      |  0  | 0.0050 |
+| Reset           | 0.1889 | 0.0987  | 0.1017 |
 
 #### Header 4
 
@@ -107,6 +115,7 @@ Some more stuff will go here. Inlcude table, or just take an image??
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
+![TESTING](/workspaces/samwalts.github.io/assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png)
 
 ### Definition lists can be used with HTML syntax.
 
