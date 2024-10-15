@@ -115,8 +115,12 @@ Some more stuff will go here. Inlcude table, or just take an image??
 
 ### Large image
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
+<div style="text-aligh: center;">
+  <a href = "https://github.com/SamWalts/samwalts.github.io/blob/main/assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png" target = "_blank">
+    <img src="./assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png" width="720px" title="Screen Loading Times Chart" />
+  </a>
+  <p><em>Figure 2 - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
+</div>
 ![Relative path](./assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png)
 
 ### Definition lists can be used with HTML syntax.
