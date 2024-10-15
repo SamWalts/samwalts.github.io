@@ -45,6 +45,8 @@ end
 
 
 Some more stuff will go here. Inlcude table, or just take an image??
+
+
 | Type of Search        | Original Artifact Time (s) | Enhancement 1 Time (s) | Enhancement 2 Time (s) |
 |:----------------------|:---------------------------|:-----------------------|:-----------------------|
 | Water                 |                     0.0140 | 0                      | 0.0065                 |
@@ -115,7 +117,7 @@ Some more stuff will go here. Inlcude table, or just take an image??
 
 ![Branching](https://guides.github.com/activities/hello-world/branching.png)
 
-![TESTING](SNHU_CS_499_Algorithms_BarChart_Times.png)
+![Relative path](./assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png)
 
 ### Definition lists can be used with HTML syntax.
 
