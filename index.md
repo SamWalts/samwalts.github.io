@@ -25,7 +25,7 @@ This is a normal paragraph following a header. GitHub is a code hosting platform
 This was part of the Software Engineering and design. Look at how cool I am!
 
 ### Header 3
-
+{:.no_toc}
 ```js
 // Javascript code with syntax highlighting.
 var fun = function lang(l) {
