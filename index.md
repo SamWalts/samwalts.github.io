@@ -10,6 +10,22 @@ There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
+<div style="text-align: center;">
+    <img src="assets/images/ContactApp_Test_Coverage.png" width="100%" title="Task Scheduler Diagram - Thermostat Lab Guide" />
+    <p><em>Figure 2 - Thermostat Lab Guide - CS350 Emerging Systems Architecture and Technologies</em></p>
+</div>
+
+<div style="text-align: center;">
+    <img src="assets/images/ContactApp_UML_Diagram_10-18-24.png" width="100%" title="Task Scheduler Diagram - Thermostat Lab Guide" />
+    <p><em>Figure 2 - Thermostat Lab Guide - CS350 Emerging Systems Architecture and Technologies</em></p>
+</div>
+
+<div style="text-align: center;">
+    <img src="assets/images/ContactApp_Github_CI_Screenshot.png" width="100%" title="Task Scheduler Diagram - Thermostat Lab Guide" />
+    <p><em>Figure 2 - Thermostat Lab Guide - CS350 Emerging Systems Architecture and Technologies</em></p>
+</div>
+
+
 # Software Engineering and Design
 
 
@@ -23,6 +39,14 @@ This artifact was created using the [original artifact](https://github.com/SamWa
 > This is a blockquote following a header.
 >
 > When something is important enough, you do it even if the odds are not in your favor.
+
+
+<div style="text-align: right;">
+    <a href="#">
+        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #ffffff; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+    </a>
+</div>
+
 
 # Databases
 
@@ -81,9 +105,7 @@ When completing this enhancement, I was able to design and evaluate computing so
 
 
 <div style="text-aligh: center;">
-  <a href = "https://github.com/SamWalts/samwalts.github.io/blob/main/assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png" target = "_blank">
     <img src="./assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png" width="720px" title="Screen Loading Times Chart" />
-  </a>
   <p><em>Figure 2 - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
 </div>
 
