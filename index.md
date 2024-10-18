@@ -77,14 +77,21 @@ View the Original artifact here! [Original Artifact](https://github.com/SamWalts
 
 # Databases
 
-The artifact that I chose for the Database enhancement was the same artifact I chose for the software Design and Engineering. The artifact is based on the SNHU course CS 320, a class which emphasized customer requirements and appropriate unit testing. The original files were a contact service middleware and accompanying unit tests that I enhanced to include a JavaFX graphical user interface and backend database. This enhancement will show the changes that I made to implement the MySQL database with the user interface to create persistent storage. Specifically, the enhancements will include the implementation of the database with the Java Database Connectivity (JDBC). Because the JDBC is such a resource intensive object, it will only be created once, and reused several times using the singleton pattern. The ContactService makes extensive use of the DBConnection class. As such, Unit testing and mocking were not enough. In order to satisfy testing needs, and ensure that data is correctly stored, the ContactServiceTest class was changed to implement [testcontainers](https://testcontainers.com/) that allow for integration tests using a real database. Using this method I was able to test over 
+The artifact that I chose for the Database enhancement was the same artifact I chose for the software Design and Engineering. The artifact is based on the SNHU course CS 320, a class which emphasized customer requirements and appropriate unit testing. The original files were a contact service middleware and accompanying unit tests that I enhanced to include a JavaFX graphical user interface and backend database. This enhancement will show the changes that I made to implement the MySQL database with the user interface to create persistent storage. Specifically, the enhancements will include the implementation of the database with the Java Database Connectivity (JDBC). Because the JDBC is such a resource intensive object, it will only be created once, and reused several times using the singleton pattern. The ContactService makes extensive use of the DBConnection class. As such, Unit testing and mocking were not enough. In order to satisfy testing needs, and ensure that data is correctly stored, the ContactServiceTest class was changed to implement [testcontainers](https://testcontainers.com/) that allow for integration tests using a real database. Using this method I was able to test over 95% of my methods for the models, and a total of 93% of lines for Contact and ContactService classes.
+
+<div style="text-align: center;">
+    <img src="assets/images/ContactApp_Test_Coverage.png" width="100%" title="Task Scheduler Diagram - Thermostat Lab Guide" />
+    <p><em>Figure xxxx - CS320 Software Test Automation and QA</em></p>
+</div>
+
 The skills that I demonstrate with this enhancement include a full stack capability with the Java language. This includes how to surface errors on the main page, error handling for SQL errors, and how to manage resource intensive operations such as handling the JDBC. I continue to demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. This includes utilizing an industry leading database, MySQL. I was able to develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. This was enforced by using encapsulation for the program and enforcing the Model View Controller design pattern for safety and security, to create easily extensible software that is well written and well tested.
+
 List of enhancements performed from the original artifact
 1. Created MySQL database with first name, last name, address, phone number, and an id.
 1. Implemented a JavaFX GUI for interacting with the contact database.
 1. Implemented a table view for showing saved contacts.
 1. On click, text fields will automatically populate for easy updating.
-1.Changed the Contact and ContactService classes to use DBConnection instead of a HashMap.
+1. Changed the Contact and ContactService classes to use DBConnection instead of a HashMap.
 1. Implemented Maven for dependency management.
 	1. Enforced encapsulation with Model View Controller design pattern.
 	1. Updated unit tests to ensure proper testing.
