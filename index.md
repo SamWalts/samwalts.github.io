@@ -108,6 +108,9 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 
 <img id="self-assessment" src="assets/images/header_photos/databases.png" alt="Databases" title="Databases" />
 
+* __I will show that I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources__
+* __I will show that I have employed strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science__
+ 
 The artifact that I chose for the Database enhancement was the same artifact I chose for the software Design and Engineering. The artifact is based on the SNHU course CS 320, a class which emphasized customer requirements and appropriate unit testing. The original files were a contact service middleware and accompanying unit tests that I enhanced to include a JavaFX graphical user interface and backend database. This enhancement will show the changes that I made to implement the MySQL database with the user interface to create persistent storage. Specifically, the enhancements will include the implementation of the database with the Java Database Connectivity (JDBC). Because the JDBC is such a resource intensive object, it will only be created once, and reused several times using the singleton pattern. The ContactService makes extensive use of the DBConnection class. As such, Unit testing and mocking were not enough. In order to satisfy testing needs, and ensure that data is correctly stored, the ContactServiceTest class was changed to implement [testcontainers](https://testcontainers.com/) that allow for integration tests using a real database. Using this method I was able to test over 95% of my methods for the models, and a total of 93% of lines for Contact and ContactService classes.
 
 <div style="text-align: center;">
@@ -155,6 +158,11 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 # Algorithms and Data Structures
 <img id="self-assessment" src="assets/images/header_photos/algorithms_and_data_structures" alt="Algorithms and Data Structures" title="Algorithms and Data Structures" />
 
+* __ I will show that I have employed strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science__
+* __ I will show that I have designed, developed, and delivered professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts__
+* __ I will prove that I have designed and evaluateed computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices__
+
+  
 The artifact I chose for the algorithms and data structures was the Salvare Search for Rescue Web application, that is run in Jupyter Notebooks. The application aims to connect the rescue organization with dogs that can be trained for different types or rescue operations. It does this using a Jupyter Notebook with a Dash application for the web page layouts, which includes surfacing the spreadsheet of selected animals, a selection of radio buttons for the parameters required for each type of rescue, and a graph to show a breakdown of the different animals. The application uses a python API to interact with a MongoDB backend. Before I was able to enhance the project, I had to create a local instance of the MongoDB with the 10000 rows of animals. This was due to the instance available during class being spun down after the semester ended. The numbers in the table are an average of 5 tests, with the highest and lowest score removed, and the middle three averaged out.
 
 <div style="text-aligh: center;">
@@ -163,6 +171,7 @@ The artifact I chose for the algorithms and data structures was the Salvare Sear
 </div>
 
 A major inefficiency from the original code was that every time there was a need to sort, or filter the Panda’s data frame, the code would make a new API call to the database, pass the database the filtering parameters, then return the data. While running the local instance, the time for each of these calls to complete is shown in _Figure 1_ in the Original Artifact Time column, and is still very quick. However, with larger datasets, and cloud based systems, this could lead to massive load times, and increased cloud costs due to repeated and unnecessary database calls. The enhancements and experiments I created are designed to showcase the potential time and cost savings of using the dataframes more effeciently. The first enhancement experiment that I made was to use the original data frame and then create cached dataframes by storing the new frame that was filtered from the original into their own seperate dataframes.
+
 ```python
 df_Mountain_Wilderness = df[            # DF for Mountain / Wilderness
                 (df['animal_type'] == 'Dog') &
