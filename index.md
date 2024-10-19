@@ -4,11 +4,26 @@
 ## CS-499 | SNHU
 {: .no_toc}
 
-### Professional Self Assessment 
+# Professional Self Assessment 
 <img id="self-assessment" src="assets/images/header_photos/professional_self_assessment.png" alt="Professional Self-Assessment" title="Professional Self-Assessment" />
+As I near the completion of my Computer Science program, I reflect on how far I've come since returning to college in 2022 to pursue my bachelor's degree. The foundational engineering principles I have gained throughout this journey will serve as a cornerstone of my career, equipping me with knowledge and skills that I can confidently apply across all facets of my professional work. These core concepts are not only pivotal to my development as a computer scientist but will also guide my approach to future challenges and opportunities in the field.
+One of the key strengths I developed during the program is my ability to collaborate in team environments. Working with others has shown me the importance of clear communication, efficient task management, and clearly defined goals. Professionally, I must collaborate using tools such as Jira and Confluence, as well as Git for version control. This includes using tools like GitHub Actions for automating DevOps workflows. This has been essential in ensuring that development processes are streamlined, and issues are addressed proactively. It’s not only what work that I can do, but how I can present this work to management and stakeholders to show off my technical and collaborative abilities.
+In addition to collaboration, my ability to communicate technical concepts to stakeholders has grown substantially. Throughout my projects, I have consistently had to present complex algorithms and system designs in ways that are easily digestible for non-technical audiences. For example, I optimized API usage by reducing unnecessary calls, which not only improved system performance but I was then able to present the data in a more user-friendly format. These experiences helped me refine my ability to bridge the gap between technical and business perspectives, an important skill for anyone.
+The program also strengthened my understanding of fundamental computer science concepts, particularly data structures and algorithms. I gained hands-on experience implementing algorithms that optimized system performance and user experience. For instance, one of my projects involved refining an algorithm to reduce API calls, which resulted in faster data retrieval and more responsive applications. Understanding how to choose the right data structures to achieve these performance gains was critical, as well as the unique trade off of choosing between consuming more memory, or having certain functions take extra time.
+In terms of software engineering, I developed a JavaFX GUI application that integrates with a MySQL database. This project solidified my understanding of full-stack development, from front-end design to back-end database management. By implementing MySQL within the JavaFX application, I ensured that the system had robust data storage capabilities, which could efficiently handle complex queries and transactions. I was able to keep the program loosely coupled such that it is easily extensible. This was accomplished by keeping to the Model View Controller (MVC) design pattern, and ensuing that any change in one of areas would have minimal impact on any other. This pattern also ensures that you can easily perform integration and unit testing on each particular aspect of the application.
+Security was another important area of focus during my studies. Through the program, I learned how to safeguard applications by integrating security best practices. Whether it was protecting database connections or implementing secure API calls, my projects emphasized the need for data integrity and secure communication channels. This included implementing prepared statements for any SQL queries and user input validation of the data. I also learned the power of using static tools for dependency checking. Specifically, by attaching a maven plugin, you can scan and have a report for each of your dependencies. This can be included in the Github Actions, and can be configured to run as much as desired.
+The artifacts in my ePortfolio represent the full range of my technical abilities. The JavaFX GUI application showcases my software engineering skills and my ability to build user-friendly interfaces. The MySQL database artifact demonstrates my proficiency in database management and integration. My commitment to creating reusable and extensible code is evident in my application of the MVC pattern. My work on DevOps using GitHub Actions highlights my commitment to maintaining continuous integration and delivery workflows, ensuring that my applications are always up to date and running efficiently. Finally, the algorithms I implemented reflect my problem-solving skills and my ability to create solutions that not only work but are optimized for performance and scalability.
+Throughout the program, I have also demonstrated my ability to explain complex computing principles to non-technical audiences. Whether it was explaining the design and functionality of an algorithm or detailing system architecture, I have consistently made sure that both technical and non-technical stakeholders understood the impact of my work. This skill, I believe, sets me apart from other candidates, as I can navigate both the technical aspects of a project and the interpersonal dynamics of a team or client relationship.
+In conclusion, the Computer Science program has provided me with the technical expertise, teamwork experience, and communication skills to excel in the industry. My ePortfolio reflects the range of my abilities and serves as a comprehensive showcase of my competence. As I move forward in my career, I am excited to apply these skills in new and challenging environments, confident in my ability to make meaningful contributions to the field.
 
 
-### Code Review 
+<div style="text-align: right;">
+    <a href="#">
+        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: ##7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+    </a>
+</div>
+
+# Code Review 
 The purpose of a code review is to ensure quality and standards are upheld. This is a vital step for imparting knowledge, early bug detection, and improving collaboration on the development team. This is a highly important step in producing quality code. Below, you can the code review that I completed before starting on the enhancements that are displayed in this portfolio.
 
 <div style="text-align: center;">
@@ -18,6 +33,12 @@ The purpose of a code review is to ensure quality and standards are upheld. This
 </div>
 
 Figure 1 - Software Design and Engineering Code Review Video
+
+<div style="text-align: right;">
+    <a href="#">
+        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: ##7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+    </a>
+</div>
 
 
 # Software Engineering and Design
@@ -42,6 +63,7 @@ While creating the Github Actions, I was able to start making the beginnings of 
 ---
 
 ### Milestones Completed
+{: .no_toc}
 
 * Completed an MVC application
    * Loosely coupled and easily tested and extensible
@@ -61,7 +83,7 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #ffffff; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: ##7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
     </a>
 </div>
 
@@ -108,7 +130,7 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #ffffff; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: ##7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
     </a>
 </div>
 
@@ -161,6 +183,6 @@ Algorithms and Datastructures [Enhancement](https://github.com/SamWalts/samwalts
 ---
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #ffffff; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: ##7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
     </a>
 </div>
