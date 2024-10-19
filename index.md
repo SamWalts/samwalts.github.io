@@ -78,7 +78,9 @@ The artifact that I chose for the Database enhancement was the same artifact I c
 
 The skills that I demonstrate with this enhancement include a full stack capability with the Java language. This includes how to surface errors on the main page, error handling for SQL errors, and how to manage resource intensive operations such as handling the JDBC. I continue to demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. This includes utilizing an industry leading database, MySQL. I was able to develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. This was enforced by using encapsulation for the program and enforcing the Model View Controller design pattern for safety and security, to create easily extensible software that is well written and well tested.
 
-List of enhancements performed from the original artifact
+### List of enhancements performed from the original artifact
+{: .no-toc}
+
 1. Created MySQL database with first name, last name, address, phone number, and an id.
 1. Implemented a JavaFX GUI for interacting with the contact database.
 1. Implemented a table view for showing saved contacts.
@@ -92,6 +94,8 @@ List of enhancements performed from the original artifact
 		1. Automatically build based on Maven pom.xml
 		1. Run unit tests
 		1. Create zip file containing completed JavaFX project
+
+
 ---
 #### View The Code 
 {: .no-toc}
@@ -112,6 +116,11 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 <img id="self-assessment" src="assets/images/header_photos/algorithms_and_data_structures" alt="Algorithms and Data Structures" title="Algorithms and Data Structures" />
 
 The artifact I chose for the algorithms and data structures was the Salvare Search for Rescue Web application, that is run in Jupyter Notebooks. The application aims to connect the rescue organization with dogs that can be trained for different types or rescue operations. It does this using a Jupyter Notebook with a Dash application for the web page layouts, which includes surfacing the spreadsheet of selected animals, a selection of radio buttons for the parameters required for each type of rescue, and a graph to show a breakdown of the different animals. The application uses a python API to interact with a MongoDB backend. Before I was able to enhance the project, I had to create a local instance of the MongoDB with the 10000 rows of animals. This was due to the instance available during class being spun down after the semester ended. The numbers in the table are an average of 5 tests, with the highest and lowest score removed, and the middle three averaged out.
+
+<div style="text-aligh: center;">
+    <img src="./assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png" width="720px" title="Screen Loading Times Chart" />
+  <p><em>Figure 2 - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
+</div>
 
 A major inefficiency from the original code was that every time there was a need to sort, or filter the Panda’s data frame, the code would make a new API call to the database, pass the database the filtering parameters, then return the data. While running the local instance, the time for each of these calls to complete is shown in _Figure 1_ in the Original Artifact Time column, and is still very quick. However, with larger datasets, and cloud based systems, this could lead to massive load times, and increased cloud costs due to repeated and unnecessary database calls. The enhancements and experiments I created are designed to showcase the potential time and cost savings of using the dataframes more effeciently. The first enhancement experiment that I made was to use the original data frame and then create cached dataframes by storing the new frame that was filtered from the original into their own seperate dataframes.
 ```python
@@ -150,10 +159,10 @@ Algorithms and Datastructures [Original](https://github.com/SamWalts/samwalts.gi
 Algorithms and Datastructures [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/main/CS-499%20Algorithms%20and%20Data%20Structures/Enhancement)
 
 ---
-
-<div style="text-aligh: center;">
-    <img src="./assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png" width="720px" title="Screen Loading Times Chart" />
-  <p><em>Figure 2 - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
+<div style="text-align: right;">
+    <a href="#">
+        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #ffffff; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+    </a>
 </div>
 
 #### Header 4
