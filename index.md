@@ -4,6 +4,9 @@
 ## CS-499 | SNHU
 {: .no_toc}
 
+{toc}
+
+
 # Professional Self Assessment 
 
 <img id="self-assessment" src="assets/images/header_photos/professional_self_assessment.png" alt="Professional Self-Assessment" title="Professional Self-Assessment" />
@@ -181,7 +184,7 @@ df_Mountain_Wilderness = df[            # DF for Mountain / Wilderness
                 (df['age_upon_outcome_in_weeks'] <= 156)].copy()
 ```
 
-This uses O(n) * (number of additional dataframes) memory and keeps the O(1) time complexity for retrieving the cached dataframes, but creates the copy for instant reference in the application by removing the extra database calls. This is the best option for the user experience, as shown in _Figure 1 Enhancement 1 Bar Chart_, with an essentially instant response time when selecting different types of rescue animals. However, this does cache each of the data frames, and will use extra memory to do so. This is not a problem for smaller data sets, but with every added option, the memory required would rapidly increase. The “Reset” button is the only button that will make a new API call to retrieve the data in the MongoDB database and catch any potential updates. 
+This uses O(n) * (number of additional dataframes) memory and keeps the O(1) time complexity for retrieving the cached dataframes, but creates the copy for instant reference in the application by removing the extra database calls. This is the best option for the user experience, as shown above in the _Chart 1_ bar Chart, with an essentially instant response time when selecting different types of rescue animals. However, this does cache each of the data frames, and will use extra memory to do so. This is not a problem for smaller data sets, but with every added option, the memory required would rapidly increase. The “Reset” button is the only button that will make a new API call to retrieve the data in the MongoDB database and catch any potential updates. 
 
 ## Experiment Synopsis
 {: .no_toc}
@@ -197,7 +200,7 @@ The time was captured by using the time module in Python, and making a start, an
 
 _Table 1 - Table of loading times for the Original, Enhancement 1, and Enhancement2, in seconds_
 
-For the second experiment, I decided to create a middle ground that would remove the extra API calls, but not have the downsides of the increased memory usage due to caching every single one of the filtered data frames that Enhancement 1 had. This option is enhancement 2, and you can see the the comparison of it in _Figure 1_ and _Figure 2_; instead of pre-filtering and storing the different search types in memory, this enhancement creates a data frame by applying the filter to the original data frame when the radio button is pressed. The potential network calls are the same as from Enhancement 1, with a new data frame being called only when the “Reset” button is called, and at the beginning of the program to populate the dashboard. The time complexity when a button is pressed would only be O(n) with O(n) memory usage. You can see the The average time of selecting each button for the second enhancement was 0.026 seconds per filter, and the comparison of enhancement 2 and the original in _Figure 2_.
+For the second experiment, I decided to create a middle ground that would remove the extra API calls, but not have the downsides of the increased memory usage due to caching every single one of the filtered data frames that enhancement 1 had. This option is enhancement 2, and you can see the the comparison of it in _Figure 1_ and _Figure 2_; instead of pre-filtering and storing the different search types in memory, this enhancement creates a data frame by applying the filter to the original data frame when the radio button is pressed. The potential network calls are the same as from enhancement 1, with a new data frame being called only when the “Reset” button is selected, and at the beginning of the program to populate the dashboard. The time complexity when a button is pressed would only be O(n) with O(n) memory usage. You can see the The average time of selecting each button for the second enhancement was 0.026 seconds per filter, and the comparison of enhancement 2 and the original in _Table 1_.
 
 When completing this enhancement, I was able to design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices. I also was able to create a table and chart with the enhancements that would be of use in measuring the trade-offs of each different algorithm using small amounts of code to potentially have huge cost savings at scale, especially for a cloud based application. This demonstrates an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
 
@@ -205,9 +208,9 @@ When completing this enhancement, I was able to design and evaluate computing so
 ### View The Code 
 {: .no_toc}
 
-Algorithms and Datastructures [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/Algorithms%20and%20Data%20Structures/Original)
+Algorithms and Data Structures [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/Algorithms%20and%20Data%20Structures/Original)
 
-Algorithms and Datastructures [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/main/Algorithms%20and%20Data%20Structures/Enhancement)
+Algorithms and Data Structures [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/main/Algorithms%20and%20Data%20Structures/Enhancement)
 
 ---
 <div style="text-align: right;">
