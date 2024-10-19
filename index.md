@@ -1,15 +1,28 @@
 # Computer Science Capstone
-{: .no_toc}
+
 
 ## CS-499 | SNHU
-{: .no_toc}
 
-{toc}
+
+&nbsp;[Professional Self-Assessment](#self-assessment "Professional Self-Assessment")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Portfolio Considerations_](#portfolio-considerations "Portfolio Considerations")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Preparing For The Future_](#preparing-for-the-future "Preparing for the Future")<br/>
+&nbsp;[Refinement Plan and Code Review](#"Software Engineering and Design")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Code Review Videos Link_](#code-reviews-video-link "Artifacts Code Review Videos Link")<br/>
+&nbsp;[Software Design and Engineering](#softwaredesign "Software Design and Engineering")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Artifact Software Design and Engineering_](#artifact-software-design-and-engineering "Artifact Software Design and Engineering")<br/>
+&nbsp;[Algorithms and Data Structure](#algorithms "Algorithms and Data Structure")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Artifact Algorithms and Data Structure_](#artifact-algorithms-and-data-structures "Artifact Algorithms and Data Structure")<br/>
+&nbsp;[Databases](#databases "Databases")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Artifact Databases_](#artifact-databases "Artifact Databases")<br/>
+&nbsp;[Reviews](#reviews "ePortfolio Reviews")
+
 
 
 # Professional Self Assessment 
 
 <img id="self-assessment" src="assets/images/header_photos/professional_self_assessment.png" alt="Professional Self-Assessment" title="Professional Self-Assessment" />
+
 As I near the completion of my Computer Science program, I reflect on how far I've come since returning to college in 2022 to pursue my bachelor's degree. The foundational engineering principles I have gained throughout this journey will serve as a cornerstone of my career, equipping me with knowledge and skills that I can confidently apply across all facets of my professional work. These core concepts are not only pivotal to my development as a computer scientist but will also guide my approach to future challenges and opportunities in the field.
 
 One of the key strengths I developed during the program is my ability to collaborate in team environments. Working with others has shown me the importance of clear communication, efficient task management, and clearly defined goals. Professionally, I must collaborate using tools such as Jira and Confluence, as well as Git for version control. This includes using tools like GitHub Actions for automating DevOps workflows. This has been essential in ensuring that development processes are streamlined, and issues are addressed proactively. It’s not only what work that I can do, but how I can present this work to management and stakeholders to show off my technical and collaborative abilities.
@@ -60,7 +73,7 @@ Figure 1 - Software Design and Engineering Code Review Video
 
 # Software Engineering and Design
 
-<img id="self-assessment" src="assets/images/header_photos/software_engineering_and_design.png" alt="Software Engineering and Design.png" title="Software Engineering and Design" />
+<img id="software-engineering-and-design" src="assets/images/header_photos/software_engineering_and_design.png" alt="Software Engineering and Design.png" title="Software Engineering and Design" />
 
 * __For this enhancement I will demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals__
 * __I will show that I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources__
