@@ -5,12 +5,9 @@
 
 
 &nbsp;[Professional Self-Assessment](#self-assessment "Professional Self-Assessment")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Portfolio Considerations_](#portfolio-considerations "Portfolio Considerations")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Preparing For The Future_](#preparing-for-the-future "Preparing for the Future")<br/>
-&nbsp;[Refinement Plan and Code Review](#"Software Engineering and Design")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Code Review Videos Link_](#code-reviews-video-link "Artifacts Code Review Videos Link")<br/>
-&nbsp;[Software Design and Engineering](#softwaredesign "Software Design and Engineering")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Artifact Software Design and Engineering_](#artifact-software-design-and-engineering "Artifact Software Design and Engineering")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Code Review Videos Link_](#code-review "Code Review")<br/>
+&nbsp;[Software Engineering and Design](#software-engineering-and-design "Software Engineering and Design")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#artifact-software-design-and-engineering "Artifact Software Design and Engineering")<br/>
 &nbsp;[Algorithms and Data Structure](#algorithms "Algorithms and Data Structure")<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Artifact Algorithms and Data Structure_](#artifact-algorithms-and-data-structures "Artifact Algorithms and Data Structure")<br/>
 &nbsp;[Databases](#databases "Databases")<br/>
