@@ -1,7 +1,7 @@
 # Computer Science Capstone
 {: .no_toc}
 
-### CS-499 | SNHU
+## CS-499 | SNHU
 {: .no_toc}
 
 # Professional Self Assessment 
@@ -71,7 +71,7 @@ While creating the Github Actions, I was able to start making the beginnings of 
 
 ---
 
-### Milestones Completed
+## Milestones Completed
 {: .no_toc}
 
 * Completed an MVC application
@@ -81,7 +81,7 @@ While creating the Github Actions, I was able to start making the beginnings of 
 
 
 ---
-#### View The Code 
+### View The Code 
 {: .no_toc}
 
 Databases and Software Engineering and Design [Enhanced](https://github.com/SamWalts/samwalts.github.io/tree/adding_DB/CS-499%20Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
@@ -108,7 +108,7 @@ The artifact that I chose for the Database enhancement was the same artifact I c
 
 The skills that I demonstrate with this enhancement include a full stack capability with the Java language. This includes how to surface errors on the main page, error handling for SQL errors, and how to manage resource intensive operations such as handling the JDBC. I continue to demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. This includes utilizing an industry leading database, MySQL. I was able to develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. This was enforced by using encapsulation for the program and enforcing the Model View Controller design pattern for safety and security, to create easily extensible software that is well written and well tested.
 
-### List of enhancements performed from the original artifact
+## List of enhancements performed from the original artifact
 {: .no-toc}
 
 1. Created MySQL database with first name, last name, address, phone number, and an id.
@@ -127,7 +127,7 @@ The skills that I demonstrate with this enhancement include a full stack capabil
 
 
 ---
-#### View The Code 
+### View The Code 
 {: .no_toc}
 
 Databases and Software Engineering and Design [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/adding_DB/CS-499%20Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
@@ -164,7 +164,7 @@ df_Mountain_Wilderness = df[            # DF for Mountain / Wilderness
 
 This uses O(n) * (number of additional dataframes) memory and keeps the O(1) time complexity for retrieving the cached dataframes, but creates the copy for instant reference in the application by removing the extra database calls. This is the best option for the user experience, as shown in _Figure 1 Enhancement 1 column_, with an essentially instant response time when selecting different types of rescue animals. However, this does cache each of the data frames, and will use extra memory to do so. This is not a problem for smaller data sets, but with every added option, the memory required would rapidly increase. The “Reset” button is the only button that will make a new API call to retrieve the data in the MongoDB database and catch any potential updates. 
 
-### Logging the Time ###
+## Logging the Time ###
 {: .no_toc}
 
 The time was captured by using the time module in Python, and making a start, and end point inside of the update_dashboard() method, then making a print statement with the elapsed time. I would then select each option and read from the console the time for each. The tests were then ran 5 times each, and the result is the _Figure 1_ table, and _Figure 2_ bar chart of the average over 5 times.
@@ -183,7 +183,7 @@ For the second experiment, I decided to create a middle ground that would remove
 When completing this enhancement, I was able to design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices. I also was able to create a table and chart with the enhancements that would be of use in measuring the trade-offs of each different algorithm using small amounts of code to potentially have huge cost savings at scale, especially for a cloud based application. This demonstrates an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
 
 ---
-#### View The Code 
+### View The Code 
 {: .no_toc}
 
 Algorithms and Datastructures [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/CS-499%20Algorithms%20and%20Data%20Structures/Original)
