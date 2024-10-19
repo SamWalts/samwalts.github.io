@@ -16,6 +16,11 @@ The program also strengthened my understanding of fundamental computer science c
 
 In terms of software engineering and design, I designed and developed a JavaFX GUI application that integrates with a MySQL database. This project solidified my understanding of full-stack development, from front-end design to back-end database management. By implementing MySQL within the JavaFX application, I ensured that the system had robust data storage capabilities, which could efficiently handle complex queries and transactions. I was able to keep the program loosely coupled such that it is easily extensible. This was accomplished by keeping to the Model View Controller (MVC) design pattern, and ensuing that any change in one of areas would have minimal impact on any other. This pattern also ensures that you can easily perform integration and unit testing on each particular aspect of the application.
 
+<div style="text-align: center;">
+    <img src="assets/images/contactApp_GUI.png" width="100%" title="Screenshot of JavaFX Frontend for a Contact Application" />
+    <p><em>Figure 1 - Contact Application Screenshot - CS20 Software Test Automation and QA</em></p>
+</div>
+
 Security was another important area of focus during my studies. Through the program, I learned how to safeguard applications by integrating security best practices. Whether it was protecting database connections or implementing secure API calls, my projects emphasized the need for data integrity and secure communication channels. This included implementing prepared statements for any SQL queries and user input validation of the data. I also learned the power of using static tools for dependency checking. Specifically, by attaching a maven plugin, you can scan and have a report for each of your dependencies. This can be included in the Github Actions, and can be configured to run as much as desired.
 
 The artifacts in my ePortfolio represent the full range of my technical abilities. The JavaFX GUI application showcases my software engineering skills and my ability to build user-friendly interfaces. The MySQL database artifact demonstrates my proficiency in database management and integration. My commitment to creating reusable and extensible code is evident in my application of the MVC pattern. My work on DevOps using GitHub Actions highlights my commitment to maintaining continuous integration and delivery workflows, ensuring that my applications are always up to date and running efficiently. Finally, the algorithms I implemented reflect my problem-solving skills and my ability to create solutions that not only work but are optimized for performance and scalability.
@@ -65,7 +70,7 @@ With this CI/CD pipeline, I can showcase my devops skills. While creating the pr
 While creating the Github Actions, I was able to start making the beginnings of a CI pipeline and start the process of running the integration tests for Regressions that occur when you are making any code changes. This included writing the .yml file and creating the rules that pull requests must pass certain checks. While the application itself is simple, I am able to show my design processes, and best practices from a design, security, and efficiency standpoint. This included keeping following the MVC pattern to separate the concerns of the model from the view and the controller. This was accomplished by having minimal validity checks on the controller, to only see if a field was empty. The actual data is passed to the model, and then validated, with a success or failure message surfaced on the controller as shown on _Figure 2_.
 
 <div style="text-align: center;">
-    <img src="assets/images/ContactApp_UML_Diagram_10-18-24.png" width="100%" title="Task Scheduler Diagram - Thermostat Lab Guide" />
+    <img src="assets/images/ContactApp_UML_Diagram_10-18-24.png" width="100%" title="UML Class Diagram - CS320 Software Test Automation and QA" />
     <p><em>Figure 2 - UML diagram CS320 - CS320 Software Test Automation and QA</em></p>
 </div>
 
@@ -87,6 +92,7 @@ While creating the Github Actions, I was able to start making the beginnings of 
 Databases and Software Engineering and Design [Enhanced](https://github.com/SamWalts/samwalts.github.io/tree/main/Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
 
 Databases and Software Engineering and Design [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/Database%20and%20Software%20Engineering%20and%20Design/Original)
+
 ---
 <div style="text-align: right;">
     <a href="#">
@@ -101,7 +107,7 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 The artifact that I chose for the Database enhancement was the same artifact I chose for the software Design and Engineering. The artifact is based on the SNHU course CS 320, a class which emphasized customer requirements and appropriate unit testing. The original files were a contact service middleware and accompanying unit tests that I enhanced to include a JavaFX graphical user interface and backend database. This enhancement will show the changes that I made to implement the MySQL database with the user interface to create persistent storage. Specifically, the enhancements will include the implementation of the database with the Java Database Connectivity (JDBC). Because the JDBC is such a resource intensive object, it will only be created once, and reused several times using the singleton pattern. The ContactService makes extensive use of the DBConnection class. As such, Unit testing and mocking were not enough. In order to satisfy testing needs, and ensure that data is correctly stored, the ContactServiceTest class was changed to implement [testcontainers](https://testcontainers.com/) that allow for integration tests using a real database. Using this method I was able to test over 95% of my methods for the models, and a total of 93% of lines for Contact and ContactService classes.
 
 <div style="text-align: center;">
-    <img src="assets/images/ContactApp_Test_Coverage.png" width="100%" title="Task Scheduler Diagram - Thermostat Lab Guide" />
+    <img src="assets/images/ContactApp_Test_Coverage.png" width="100%" title="Github actions screenshot - CS320 Software Test Automation and QA Enhancement" />
     <p><em>Figure 1 - Github Actions for Portfolio Enhancement - CS20 Software Test Automation and QA</em></p>
 </div>
 
@@ -133,6 +139,7 @@ Databases and Software Engineering and Design [Enhancement](https://github.com/S
 
 Databases and Software Engineering and Design [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/Database%20and%20Software%20Engineering%20and%20Design/Original)
 
+
 ---
 
 <div style="text-align: right;">
@@ -163,7 +170,7 @@ df_Mountain_Wilderness = df[            # DF for Mountain / Wilderness
 
 This uses O(n) * (number of additional dataframes) memory and keeps the O(1) time complexity for retrieving the cached dataframes, but creates the copy for instant reference in the application by removing the extra database calls. This is the best option for the user experience, as shown in _Figure 1 Enhancement 1 column_, with an essentially instant response time when selecting different types of rescue animals. However, this does cache each of the data frames, and will use extra memory to do so. This is not a problem for smaller data sets, but with every added option, the memory required would rapidly increase. The “Reset” button is the only button that will make a new API call to retrieve the data in the MongoDB database and catch any potential updates. 
 
-## Logging the Time ###
+## Experiment Paramaters _What to call this??_
 {: .no_toc}
 
 The time was captured by using the time module in Python, and making a start, and end point inside of the update_dashboard() method, then making a print statement with the elapsed time. I would then select each option and read from the console the time for each. The tests were then ran 5 times each, and the result is the _Figure 1_ table, and _Figure 2_ bar chart of the average over 5 times.
