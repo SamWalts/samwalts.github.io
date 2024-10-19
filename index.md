@@ -50,6 +50,8 @@ While creating the Github Actions, I was able to start making the beginnings of 
 
 
 ---
+#### View The Code 
+{: .no-toc}
 
 Databases and Software Engineering and Design [Enhanced](https://github.com/SamWalts/samwalts.github.io/tree/adding_DB/CS-499%20Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
 
@@ -67,7 +69,7 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 # Databases
 <img id="self-assessment" src="assets/images/header_photos/databases.png" alt="Databases" title="Databases" />
 
-The artifact that I chose for the Database enhancement was the same artifact I chose for the software Design and Engineering. The artifact is based on the SNHU course CS 320, a class which emphasized customer requirements and appropriate unit testing. The original files were a contact service middleware and accompanying unit tests that I enhanced to include a JavaFX graphical user interface and backend database. This enhancement will show the changes that I made to implement the MySQL database with the user interface to create persistent storage. Specifically, the enhancements will include the implementation of the database with the Java Database Connectivity (JDBC). Because the JDBC is such a resource intensive object, it will only be created once, and reused several times using the singleton pattern. The ContactService makes extensive use of the DBConnection class. As such, Unit testing and mocking were not enough. In order to satisfy testing needs, and ensure that data is correctly stored, the ContactServiceTest class was changed to implement [testcontainers](https://testcontainers.com/) that allow for integration tests using a real database. Using this method I was able to test all of the methods but one, cover over 90% of the lines of code in the models.
+The artifact that I chose for the Database enhancement was the same artifact I chose for the software Design and Engineering. The artifact is based on the SNHU course CS 320, a class which emphasized customer requirements and appropriate unit testing. The original files were a contact service middleware and accompanying unit tests that I enhanced to include a JavaFX graphical user interface and backend database. This enhancement will show the changes that I made to implement the MySQL database with the user interface to create persistent storage. Specifically, the enhancements will include the implementation of the database with the Java Database Connectivity (JDBC). Because the JDBC is such a resource intensive object, it will only be created once, and reused several times using the singleton pattern. The ContactService makes extensive use of the DBConnection class. As such, Unit testing and mocking were not enough. In order to satisfy testing needs, and ensure that data is correctly stored, the ContactServiceTest class was changed to implement [testcontainers](https://testcontainers.com/) that allow for integration tests using a real database. Using this method I was able to test over 95% of my methods for the models, and a total of 93% of lines for Contact and ContactService classes.
 
 <div style="text-align: center;">
     <img src="assets/images/ContactApp_Test_Coverage.png" width="100%" title="Task Scheduler Diagram - Thermostat Lab Guide" />
@@ -91,6 +93,8 @@ List of enhancements performed from the original artifact
 		1. Run unit tests
 		1. Create zip file containing completed JavaFX project
 ---
+#### View The Code 
+{: .no-toc}
 
 Databases and Software Engineering and Design [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/adding_DB/CS-499%20Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
 
@@ -138,6 +142,9 @@ For the second experiment, I decided to create a middle ground that would remove
 When completing this enhancement, I was able to design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices. I also was able to create a table and chart with the enhancements that would be of use in measuring the trade-offs of each different algorithm using small amounts of code to potentially have huge cost savings at scale, especially for a cloud based application. This demonstrates an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
 
 ---
+#### View The Code 
+{: .no-toc}
+
 Algorithms and Datastructures [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/CS-499%20Algorithms%20and%20Data%20Structures/Original)
 
 Algorithms and Datastructures [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/main/CS-499%20Algorithms%20and%20Data%20Structures/Enhancement)
@@ -231,5 +238,3 @@ Long, single-line code blocks should not wrap. They should horizontally scroll i
 ```
 The final element.
 ```
-
-
