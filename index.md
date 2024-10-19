@@ -19,7 +19,7 @@ In conclusion, the Computer Science program has provided me with the technical e
 
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #7fb7aa; color: #4169e1; border-radius: 50px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
     </a>
 </div>
 
@@ -36,7 +36,7 @@ Figure 1 - Software Design and Engineering Code Review Video
 
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #7fb7aa; color: #4169e1; border-radius: 50px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
     </a>
 </div>
 
@@ -80,13 +80,11 @@ Databases and Software Engineering and Design [Enhanced](https://github.com/SamW
 Databases and Software Engineering and Design [Original](https://github.com/SamWalts/samwalts.github.io/tree/adding_DB/CS-499%20Database%20and%20Software%20Engineering%20and%20Design/Original)
 
 ---
-
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #7fb7aa; color: #4169e1; border-radius: 50px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
     </a>
 </div>
-
 
 # Databases
 <img id="self-assessment" src="assets/images/header_photos/databases.png" alt="Databases" title="Databases" />
@@ -130,7 +128,7 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #7fb7aa; color: #4169e1; border-radius: 50px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
     </a>
 </div>
 
@@ -183,6 +181,6 @@ Algorithms and Datastructures [Enhancement](https://github.com/SamWalts/samwalts
 ---
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #7fb7aa; color: #4169e1; border-radius: 50px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
     </a>
 </div>
