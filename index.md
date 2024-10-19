@@ -19,7 +19,7 @@ In conclusion, the Computer Science program has provided me with the technical e
 
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: ##7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
     </a>
 </div>
 
@@ -36,7 +36,7 @@ Figure 1 - Software Design and Engineering Code Review Video
 
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: ##7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
     </a>
 </div>
 
@@ -83,7 +83,7 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: ##7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
     </a>
 </div>
 
@@ -130,7 +130,7 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: ##7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
     </a>
 </div>
 
@@ -183,6 +183,6 @@ Algorithms and Datastructures [Enhancement](https://github.com/SamWalts/samwalts
 ---
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: ##7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
+        <button style="font-size: 10px; font-weight: 500; background: #4169e1; color: #7fb7aa; border-radius: 50px; border-style: solid; border-color: #4169e1; padding: 5px 5px;">Back to Top &#8593;</button>
     </a>
 </div>
