@@ -14,7 +14,7 @@ One of the key strengths I developed during the program is my ability to collabo
 In addition to collaboration, my ability to communicate technical concepts to stakeholders has grown substantially. Throughout my projects, I have consistently had to present complex algorithms and system designs in ways that are easily digestible for non-technical audiences. For example, I optimized API usage by reducing unnecessary calls, which not only improved system performance but I was then able to present the data in a more user-friendly format. These experiences helped me refine my ability to bridge the gap between technical and business perspectives, an important skill for anyone.
 The program also strengthened my understanding of fundamental computer science concepts, particularly data structures and algorithms. I gained hands-on experience implementing algorithms that optimized system performance and user experience. For instance, one of my projects involved refining an algorithm to reduce API calls, which resulted in faster data retrieval and more responsive applications. Understanding how to choose the right data structures to achieve these performance gains was critical, as well as the unique trade off of choosing between consuming more memory, or having certain functions take extra time.
 
-In terms of software engineering, I developed a JavaFX GUI application that integrates with a MySQL database. This project solidified my understanding of full-stack development, from front-end design to back-end database management. By implementing MySQL within the JavaFX application, I ensured that the system had robust data storage capabilities, which could efficiently handle complex queries and transactions. I was able to keep the program loosely coupled such that it is easily extensible. This was accomplished by keeping to the Model View Controller (MVC) design pattern, and ensuing that any change in one of areas would have minimal impact on any other. This pattern also ensures that you can easily perform integration and unit testing on each particular aspect of the application.
+In terms of software engineering and design, I designed and developed a JavaFX GUI application that integrates with a MySQL database. This project solidified my understanding of full-stack development, from front-end design to back-end database management. By implementing MySQL within the JavaFX application, I ensured that the system had robust data storage capabilities, which could efficiently handle complex queries and transactions. I was able to keep the program loosely coupled such that it is easily extensible. This was accomplished by keeping to the Model View Controller (MVC) design pattern, and ensuing that any change in one of areas would have minimal impact on any other. This pattern also ensures that you can easily perform integration and unit testing on each particular aspect of the application.
 
 Security was another important area of focus during my studies. Through the program, I learned how to safeguard applications by integrating security best practices. Whether it was protecting database connections or implementing secure API calls, my projects emphasized the need for data integrity and secure communication channels. This included implementing prepared statements for any SQL queries and user input validation of the data. I also learned the power of using static tools for dependency checking. Specifically, by attaching a maven plugin, you can scan and have a report for each of your dependencies. This can be included in the Github Actions, and can be configured to run as much as desired.
 
@@ -84,10 +84,9 @@ While creating the Github Actions, I was able to start making the beginnings of 
 ### View The Code 
 {: .no_toc}
 
-Databases and Software Engineering and Design [Enhanced](https://github.com/SamWalts/samwalts.github.io/tree/adding_DB/CS-499%20Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
+Databases and Software Engineering and Design [Enhanced](https://github.com/SamWalts/samwalts.github.io/tree/main/Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
 
-Databases and Software Engineering and Design [Original](https://github.com/SamWalts/samwalts.github.io/tree/adding_DB/CS-499%20Database%20and%20Software%20Engineering%20and%20Design/Original)
-
+Databases and Software Engineering and Design [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/Database%20and%20Software%20Engineering%20and%20Design/Original)
 ---
 <div style="text-align: right;">
     <a href="#">
@@ -130,9 +129,9 @@ The skills that I demonstrate with this enhancement include a full stack capabil
 ### View The Code 
 {: .no_toc}
 
-Databases and Software Engineering and Design [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/adding_DB/CS-499%20Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
+Databases and Software Engineering and Design [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/main/Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
 
-Databases and Software Engineering and Design [Original](https://github.com/SamWalts/samwalts.github.io/tree/adding_DB/CS-499%20Database%20and%20Software%20Engineering%20and%20Design/Original)
+Databases and Software Engineering and Design [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/Database%20and%20Software%20Engineering%20and%20Design/Original)
 
 ---
 
@@ -186,9 +185,9 @@ When completing this enhancement, I was able to design and evaluate computing so
 ### View The Code 
 {: .no_toc}
 
-Algorithms and Datastructures [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/CS-499%20Algorithms%20and%20Data%20Structures/Original)
+Algorithms and Datastructures [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/Algorithms%20and%20Data%20Structures/Original)
 
-Algorithms and Datastructures [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/main/CS-499%20Algorithms%20and%20Data%20Structures/Enhancement)
+Algorithms and Datastructures [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/main/Algorithms%20and%20Data%20Structures/Enhancement)
 
 ---
 <div style="text-align: right;">
