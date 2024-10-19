@@ -1,10 +1,10 @@
 # Computer Science Capstone
 {: .no_toc}
 
-## CS-499 | SNHU
-{: .no_toc}
+### CS-499 | SNHU
 
 # Professional Self Assessment 
+
 <img id="self-assessment" src="assets/images/header_photos/professional_self_assessment.png" alt="Professional Self-Assessment" title="Professional Self-Assessment" />
 As I near the completion of my Computer Science program, I reflect on how far I've come since returning to college in 2022 to pursue my bachelor's degree. The foundational engineering principles I have gained throughout this journey will serve as a cornerstone of my career, equipping me with knowledge and skills that I can confidently apply across all facets of my professional work. These core concepts are not only pivotal to my development as a computer scientist but will also guide my approach to future challenges and opportunities in the field.
 One of the key strengths I developed during the program is my ability to collaborate in team environments. Working with others has shown me the importance of clear communication, efficient task management, and clearly defined goals. Professionally, I must collaborate using tools such as Jira and Confluence, as well as Git for version control. This includes using tools like GitHub Actions for automating DevOps workflows. This has been essential in ensuring that development processes are streamlined, and issues are addressed proactively. It’s not only what work that I can do, but how I can present this work to management and stakeholders to show off my technical and collaborative abilities.
@@ -73,7 +73,7 @@ While creating the Github Actions, I was able to start making the beginnings of 
 
 ---
 #### View The Code 
-{: .no-toc}
+{: .no_toc}
 
 Databases and Software Engineering and Design [Enhanced](https://github.com/SamWalts/samwalts.github.io/tree/adding_DB/CS-499%20Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
 
@@ -118,7 +118,7 @@ The skills that I demonstrate with this enhancement include a full stack capabil
 
 ---
 #### View The Code 
-{: .no-toc}
+{: .no_toc}
 
 Databases and Software Engineering and Design [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/adding_DB/CS-499%20Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
 
@@ -172,7 +172,7 @@ When completing this enhancement, I was able to design and evaluate computing so
 
 ---
 #### View The Code 
-{: .no-toc}
+{: .no_toc}
 
 Algorithms and Datastructures [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/CS-499%20Algorithms%20and%20Data%20Structures/Original)
 
