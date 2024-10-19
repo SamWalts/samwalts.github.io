@@ -58,6 +58,10 @@ Figure 1 - Software Design and Engineering Code Review Video
 
 <img id="self-assessment" src="assets/images/header_photos/software_engineering_and_design.png" alt="Software Engineering and Design.png" title="Software Engineering and Design" />
 
+* __For this enhancement I will demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals__
+* __I will show that I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources__
+
+  
 This artifact was created using the code from CS-320, a test automation and QA course, that contained only the Contact and ContactService classes with the accompanying tests classes. I designed a GUI that would turn the middle services into a full contact application, using Java with JavaFX, CSS, and MySQL. To handle dependencies, and accommodate JavaFX and MySQL, I have added a Maven file to handle dependencies and integrated Github Actions that build the project based on the pom file, will run the unit tests, and then build and package the jar file for download.
 
 <div style="text-align: center;">
