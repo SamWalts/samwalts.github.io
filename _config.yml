@@ -3,3 +3,4 @@ plugins:
 - jekyll-remote-theme 
 title: [SNHU ePortfolio]
 description: [CS-499 Computer Science Capstone by Samuel Walters]
+is_project_page: true
