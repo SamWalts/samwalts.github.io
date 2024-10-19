@@ -39,6 +39,7 @@ In conclusion, the Computer Science program has provided me with the technical e
 </div>
 
 # Code Review 
+<img id="self-assessment" src="assets/images/header_photos/code_review.png" alt="Code Review" title="Code Review" />
 
 The purpose of a code review is to ensure quality and standards are upheld. This is a vital step for imparting knowledge, early bug detection, and improving collaboration on the development team. This is a highly important step in producing quality code. Below, you can watch the code review that I completed before starting on the enhancements that are displayed in this portfolio.
 
@@ -159,7 +160,7 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 </div>
 
 # Algorithms and Data Structures
-<img id="self-assessment" src="assets/images/header_photos/algorithms_and_data_structures" alt="Algorithms and Data Structures" title="Algorithms and Data Structures" />
+<img id="self-assessment" src="assets/images/header_photos/algorithms_and_data_structures.png" alt="Algorithms and Data Structures" title="Algorithms and Data Structures" />
 
 * __I will show that I have employed strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science__
 * __I will show that I have designed, developed, and delivered professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts__
