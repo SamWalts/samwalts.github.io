@@ -75,12 +75,13 @@ The artifact that I chose for the Database enhancement was the same artifact I c
 </div>
 
 The skills that I demonstrate with this enhancement include a full stack capability with the Java language. This includes how to surface errors on the main page, error handling for SQL errors, and how to manage resource intensive operations such as handling the JDBC. I continue to demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. This includes utilizing an industry leading database, MySQL. I was able to develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. This was enforced by using encapsulation for the program and enforcing the Model View Controller design pattern for safety and security, to create easily extensible software that is well written and well tested.
+
 List of enhancements performed from the original artifact
 1. Created MySQL database with first name, last name, address, phone number, and an id.
 1. Implemented a JavaFX GUI for interacting with the contact database.
 1. Implemented a table view for showing saved contacts.
 1. On click, text fields will automatically populate for easy updating.
-1.Changed the Contact and ContactService classes to use DBConnection instead of a HashMap.
+1. Changed the Contact and ContactService classes to use DBConnection instead of a HashMap.
 1. Implemented Maven for dependency management.
 	1. Enforced encapsulation with Model View Controller design pattern.
 	1. Updated unit tests to ensure proper testing.
