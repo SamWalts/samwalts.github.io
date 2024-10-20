@@ -5,8 +5,6 @@
 
 This portfolio showcases some of the skills and knowledge that I have gained from studying at Southern New Hampshire University (SNHU). This portfolio showcases the growth in my technical abilities by enhancing artifacts that were completed early in my academic career, and enhancing them in three categories, software engineering and design, databases, and algorithms and data structures. Each section will contain milestones that I have completed, with the original and enhanced artifacts located at the end of each section. You can refer to the _Table of Contents_ to quickly navigate the portfolio, and at the end of each section, easily move back to the top of the page using the _Back to Top_ buttons located at the end of each section.
 
-## CS-499 | SNHU
-
 ### _Table of Contents_
 
 &nbsp;[Professional Self-Assessment](#self-assessment "Professional Self-Assessment")<br/>
