@@ -13,7 +13,7 @@ This portfolio showcases some of the skills and knowledge that I have gained fro
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#artifacts-software-engineering-and-design "Artifacts Software Engineering and Design")<br/>
 &nbsp;[Databases](#databases "Databases")<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#artifacts-databases "Artifacts Databases")<br/>
-&nbsp;[Algorithms and Data Structure](#algos-and-ds "Algorithms and Data Structures")<br/>
+&nbsp;[Algorithms and Data Structures](#algos-and-ds "Algorithms and Data Structures")<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#artifacts-algorithms-and-data-structures "Artifacts Algorithms and Data Structures")<br/>
 
 
