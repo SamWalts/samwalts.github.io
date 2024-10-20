@@ -1,17 +1,21 @@
-# Computer Science Capstone
+## Welcome!
 
+This portfolio showcases some of the skills and knowledge that I have gained from studying at Southern New Hampshire University (SNHU). This portfolio showcases the growth in my technical abilities by enhancing artifacts that were completed early in my academic career, and enhancing them in three categories, software engineering and design, databases, and algorithms and data structures. Each section will contain milestones that I have completed, with the original and enhanced artifacts located at the end of each section. You can refer to the _Table of Contents_ to quickly navigate the portfolio, and at the end of each section, easily move back to the top of the page using the _Back to Top_ buttons located at the end of each section.
+
+# Computer Science Capstone
 
 ## CS-499 | SNHU
 
+### _Table of Contents_
 
 &nbsp;[Professional Self-Assessment](#self-assessment "Professional Self-Assessment")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;[_Code Review_](#code-review "Code Review")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[Code Review](#code-review "Code Review")<br/>
 &nbsp;[Software Engineering and Design](#software-engineering-and-design "Software Engineering and Design")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#view-the-code "View the Code")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#artifacts-software-engineering-and-design "Artifacts Software Engineering and Design")<br/>
 &nbsp;[Databases](#databases "Databases")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#view-the-code "View the Code")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#artifacts-databases "Artifacts Databases")<br/>
 &nbsp;[Algorithms and Data Structure](#algos-and-ds "Algorithms and Data Structures")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#view-the-code "View the Code")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#artifacts-algorithms-and-data-structures "Artifacts Algorithms and Data Structures")<br/>
 
 
 <img id="self-assessment" src="assets/images/header_photos/professional_self_assessment.png" alt="Professional Self-Assessment" title="Professional Self-Assessment" />
@@ -27,7 +31,7 @@ In terms of software engineering and design, I designed and developed a JavaFX G
 
 <div style="text-align: center;">
     <img src="assets/images/contactApp_GUI.png" width="100%" title="Screenshot of JavaFX Frontend for a Contact Application" />
-    <p><em>Figure 1 - Contact Application Screenshot - CS20 Software Test Automation and QA</em></p>
+    <p><em>Figure 1a - Contact Application Screenshot - CS20 Software Test Automation and QA</em></p>
 </div>
 
 Security was another important area of focus during my studies. Through the program, I learned how to safeguard applications by integrating security best practices. Whether it was protecting database connections or implementing secure API calls, my projects emphasized the need for data integrity and secure communication channels. This included implementing prepared statements for any SQL queries and user input validation of the data. I also learned the power of using static tools for dependency checking. Specifically, by attaching a maven plugin, you can scan and have a report for each of your dependencies. This can be included in the Github Actions, and can be configured to run as much as desired.
@@ -54,7 +58,7 @@ The purpose of a code review is to ensure quality and standards are upheld. This
     </div>
 </div>
 
-Figure 1 - Software Design and Engineering Code Review Video
+Figure 1b - Code Review of Original Artifacts
 
 <div style="text-align: right;">
     <a href="#">
@@ -69,35 +73,38 @@ Figure 1 - Software Design and Engineering Code Review Video
 * __I will show that I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources__
 
   
-This artifact was created using the code from CS-320, a test automation and QA course, that contained only the Contact and ContactService classes with the accompanying tests classes. I designed a GUI that would turn the middle services into a full contact application, using Java with JavaFX, CSS, and MySQL. To handle dependencies, and accommodate JavaFX and MySQL, I have added a Maven file to handle dependencies and integrated Github Actions that build the project based on the pom file, will run the unit tests, and then build and package the jar file for download.
+This artifact was created using the code from CS-320, a test automation and QA course, that contained only the Contact and ContactService classes with the accompanying tests classes. I designed a graphical user interface (GUI) that would turn the middle services into a full contact application, using Java with JavaFX, CSS, and MySQL. To handle dependencies, and accommodate JavaFX and MySQL, I have added a Maven file to handle dependencies and integrated Github Actions that build the project based on the pom file, will run the unit tests, and then build and package the jar file for download. Please see _Figure 3a_ below for a completed run on Github Action.
 
 <div style="text-align: center;">
-    <img src="assets/images/ContactApp_Github_CI_Screenshot.png" width="100%" title="Task Scheduler Diagram - Thermostat Lab Guide" />
-    <p><em>Figure 1 - Github Actions for Portfolio Enhancement - CS20 Software Test Automation and QA</em></p>
+    <img src="assets/images/ContactApp_Github_CI_Screenshot.png" width="100%" title="Github Actions CI/CD success" />
+    <p><em>Figure 3a - Github Actions for Portfolio Enhancement - CS20 Software Test Automation and QA</em></p>
 </div>
 
-With this CI/CD pipeline, I can showcase my devops skills. While creating the project, I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. I was also able to keep the application loosely coupled, while integrating a CI pipeline to automatically run the tests, and build the finished application. In addition, the user input is validated, secured by my implementation of the database with JDBC and prepared statements. This shows that I have Developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.  
+With this continuous integration, continuous delivery (CI/CD) pipeline, I showcase my devops skills. While creating the project, I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. I was also able to keep the application loosely coupled, while integrating a CI pipeline to automatically run the tests, and build the finished application. In addition, the user input is validated, secured by my implementation of the database with JDBC and prepared statements. This shows that I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.  
 
-While creating the Github Actions, I was able to start making the beginnings of a CI pipeline and start the process of running the integration tests for Regressions that occur when you are making any code changes. This included writing the .yml file and creating the rules that pull requests must pass certain checks. While the application itself is simple, I am able to show my design processes, and best practices from a design, security, and efficiency standpoint. This included keeping following the Model View Controller (MVC) pattern to separate the concerns of the model from the view and the controller. This was accomplished by having minimal validity checks on the controller, to only see if a field was empty. The actual data is passed to the model, and then validated, with a success or failure message surfaced on the controller as shown on _Figure 2_.
+<div style="text-align: center;">
+    <img src="assets/images/error_field_screenshot.png" width="100%" title="Contact App Error Surfacing" />
+    <p><em>Figure 3b - Input Field Validation - CS20 Software Test Automation and QA</em></p>
+</div>
+
+While creating the Github Actions, I was able to start making the beginnings of a CI pipeline and start the process of running the integration tests for regressions that occur when you are making any code changes. This included writing the .yml file and creating the rules that pull requests must pass certain checks. While the application itself is simple, I am able to show my design processes, and best practices from a design, security, and efficiency standpoint. This included keeping following the Model View Controller (MVC) pattern to separate the concerns of the model from the view and the controller (_See Figure 3c for UML Diagram_). This was accomplished by having minimal validity checks on the controller, to only see if a field was empty as shown on _Figure 3b_. If the fields check is completed, then the data is passed to the model, checked again for data validity, and inserted into the database, or if there is an error, have the error surfaced on the View.
 
 <div style="text-align: center;">
     <img src="assets/images/ContactApp_UML_Diagram_10-18-24.png" width="100%" title="UML Class Diagram - CS320 Software Test Automation and QA" />
-    <p><em>Figure 2 - UML diagram CS320 - CS320 Software Test Automation and QA</em></p>
+    <p><em>Figure 3c - UML diagram CS320 - CS320 Software Test Automation and QA</em></p>
 </div>
 
 ---
 
 ## Milestones Completed
 
-
 * Completed an MVC application
    * Loosely coupled and easily tested and extensible
    * Followed best practices for seperation of concerns
 * Created a Maven file for dependency management
 
-
 ---
-### View The Code 
+### Artifacts Software Engineering and Design 
 
 Databases and Software Engineering and Design [Enhanced](https://github.com/SamWalts/samwalts.github.io/tree/main/Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
 
@@ -110,24 +117,22 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
     </a>
 </div>
 
-# Databases
 
-<img id="self-assessment" src="assets/images/header_photos/databases.png" alt="Databases" title="Databases" />
+<img id="databases" src="assets/images/header_photos/databases.png" alt="Databases" title="Databases" />
 
 * __I will show that I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources__
 * __I will show that I have employed strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science__
  
-The artifact that I chose for the Database enhancement was the same artifact I chose for the software Design and Engineering. The artifact is based on the SNHU course CS 320, a class which emphasized customer requirements and appropriate unit testing. The original files were a contact service middleware and accompanying unit tests that I enhanced to include a JavaFX graphical user interface and backend database. This enhancement will show the changes that I made to implement the MySQL database with the user interface to create persistent storage. Specifically, the enhancements will include the implementation of the database with the Java Database Connectivity (JDBC). Because the JDBC is such a resource intensive object, it will only be created once, and reused several times using the singleton pattern. The ContactService makes extensive use of the DBConnection class. As such, unit testing and mocking classes were not enough. In order to satisfy testing needs, and ensure that data is correctly stored, the ContactServiceTest class was changed to implement [testcontainers](https://testcontainers.com/) that allow for integration tests using a real database. Using this method I was able to test over 95% of my methods for the models, and a total of 93% of lines for Contact and ContactService classes.
+The artifact that I chose for the Database enhancement was the same artifact I chose for the software Design and Engineering. The artifact is based on the SNHU course CS 320, a class which emphasized customer requirements and appropriate unit testing. The original files were a contact service middleware and accompanying unit tests that I enhanced to include a JavaFX graphical user interface and backend database. This enhancement will show the changes that I made to implement the MySQL database with the user interface to create persistent storage. Specifically, the enhancements will include the implementation of the database with the Java Database Connectivity (JDBC). Because the JDBC is such a resource intensive object, it will only be created once, and reused several times using the singleton pattern. The ContactService makes extensive use of the DBConnection class. As such, unit testing and mocking classes were not enough. In order to satisfy testing needs, and ensure that data is correctly stored, the ContactServiceTest class was changed to implement Testcontainers that allow for integration tests using a real database that is run in a Docker image. Using this method I was able to test over 95% of my methods for the models, and a total of 93% of lines for Contact and ContactService classes (_Figure 3a_).
 
 <div style="text-align: center;">
     <img src="assets/images/ContactApp_Test_Coverage.png" width="100%" title="Github actions screenshot - CS320 Software Test Automation and QA Enhancement" />
-    <p><em>Figure 1 - Github Actions for Portfolio Enhancement - CS20 Software Test Automation and QA</em></p>
+    <p><em>Figure 3a - Test Coverage Analysis - CS20 Software Test Automation and QA</em></p>
 </div>
 
 The skills that I demonstrate with this enhancement include a full stack capability with the Java language. This includes how to surface errors on the main page, error handling for SQL errors, and how to manage resource intensive operations such as handling the JDBC. I continue to demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. This includes utilizing an industry leading database, MySQL. I was able to develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. This was enforced by using encapsulation for the program and enforcing the Model View Controller design pattern for safety and security, to create easily extensible software that is well written and well tested.
 
 ## List of enhancements performed from the original artifact
-{: .no-toc}
 
 1. Created MySQL database with first name, last name, address, phone number, and an id.
 1. Implemented a JavaFX GUI for interacting with the contact database.
@@ -145,7 +150,7 @@ The skills that I demonstrate with this enhancement include a full stack capabil
 
 
 ---
-### View The Code 
+### Artifacts Databases
 
 Databases and Software Engineering and Design [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/main/Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
 
@@ -172,7 +177,7 @@ The artifact I chose for the algorithms and data structures was the Salvare Sear
 
 <div style="text-aligh: center;">
     <img src="./assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png" width="720px" title="Screen Loading Times Chart" />
-  <p><em>Figure 1a - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
+  <p><em>Figure 4a - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
 </div>
 
 A major inefficiency from the original code was that every time there was a need to sort, or filter the Panda’s data frame, the code would make a new API call to the database, pass the database the filtering parameters, then return the data. While running the local instance, the time for each of these calls to complete is shown in _Chart 1_ in the Original Artifact Time column of _Table 1_, and is still very quick. However, with larger datasets, and cloud based systems, this could lead to massive load times, and increased cloud costs due to repeated and unnecessary database calls. The enhancements and experiments I created are designed to showcase the potential time and cost savings of using the dataframes more effeciently. The first enhancement experiment that I made was to use the original data frame and then create cached dataframes by storing the new frame that was filtered from the original into their own seperate dataframes.
@@ -184,15 +189,15 @@ A major inefficiency from the original code was that every time there was a need
 | Disaster / Tracking   | 0.0105                     | 0                      | 0.0050                 |
 | Reset                 | 0.1889                     | 0.0987                 | 0.1017                 |
 
-_Figure 5b - Table of loading times for the Original, Enhancement 1, and Enhancement2, in seconds_
+_Figure 4b - Table of loading times for the Original, Enhancement 1, and Enhancement2, in seconds_
 
 
-This uses O(n) * (number of additional dataframes) memory and keeps the O(1) time complexity for retrieving the cached dataframes, but creates the copy for instant reference in the application by removing the extra database calls. This is the best option for the user experience, as shown above in the _Chart 1_ bar Chart, with an essentially instant response time when selecting different types of rescue animals. However, this does cache each of the data frames, and will use extra memory to do so. This is not a problem for smaller data sets, but with every added option, the memory required would rapidly increase. The “Reset” button is the only button that will make a new API call to retrieve the data in the MongoDB database and catch any potential updates. 
+This uses O(n) * (number of additional dataframes) memory and keeps the O(1) time complexity for retrieving the cached dataframes, but creates the copy for instant reference in the application by removing the extra database calls. This is the best option for the user experience, as shown above in the _Figure 4a_ bar Chart, with an essentially instant response time when selecting different types of rescue animals. However, this does cache each of the data frames, and will use extra memory to do so. This is not a problem for smaller data sets, but with every added option, the memory required would rapidly increase. The “Reset” button is the only button that will make a new API call to retrieve the data in the MongoDB database and catch any potential updates. 
 
 ## Experiment Synopsis
 
 
-The time was captured by using the time module in Python, and making a start, and end point inside of the update_dashboard() method, then making a print statement with the elapsed time. I would then select each option and read from the console the time for each. The tests were then run 5 times each, and the result is the _Figure 1_ table, and _Figure 2_ bar chart of the average over 5 times.
+The time was captured by using the time module in Python, and making a start, and end point inside of the update_dashboard() method, then making a print statement with the elapsed time. I would then select each option and read from the console the time for each. The tests were then run 5 times each, and the result is the _Figure 4a_ table, and _Figure 4b_ bar chart of the average of 5 attempts.
   
 | Type of Search        | Original Artifact Time (s) | Enhancement 1 Time (s) | Enhancement 2 Time (s) |
 |:----------------------|:---------------------------|:-----------------------|:-----------------------|
@@ -201,19 +206,19 @@ The time was captured by using the time module in Python, and making a start, an
 | Disaster / Tracking   | 0.0105                     | 0                      | 0.0050                 |
 | Reset                 | 0.1889                     | 0.0987                 | 0.1017                 |
 
-_Figure 5b - Table of loading times for the Original, Enhancement 1, and Enhancement2, in seconds_
+_Figure 4b - Table of loading times for the Original, Enhancement 1, and Enhancement2, in seconds_
 
 <div style="text-aligh: center;">
     <img src="./assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png" width="720px" title="Screen Loading Times Chart" />
-  <p><em>Figure 1a - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
+  <p><em>Figure 4a - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
 </div>
 
-For the second experiment, I decided to create a middle ground that would remove the extra API calls, but not have the downsides of the increased memory usage due to caching every single one of the filtered data frames that enhancement 1 had. This option is enhancement 2, and you can see the the comparison of it in _Figure 1_ and _Figure 2_; instead of pre-filtering and storing the different search types in memory, this enhancement creates a data frame by applying the filter to the original data frame when the radio button is pressed. The potential network calls are the same as from enhancement 1, with a new data frame being called only when the “Reset” button is selected, and at the beginning of the program to populate the dashboard. The time complexity when a button is pressed would only be O(n) with O(n) memory usage. You can see the The average time of selecting each button for the second enhancement was 0.026 seconds per filter, and the comparison of enhancement 2 and the original in _Table 1_.
+For the second experiment, I decided to create a middle ground that would remove the extra API calls, but not have the downsides of the increased memory usage due to caching every single one of the filtered data frames that enhancement 1 had. This option is enhancement 2, and you can see the the comparison of it in _Figure 1_ and _Figure 2_; instead of pre-filtering and storing the different search types in memory, this enhancement creates a data frame by applying the filter to the original data frame when the radio button is pressed. The potential network calls are the same as from enhancement 1, with a new data frame being called only when the “Reset” button is selected, and at the beginning of the program to populate the dashboard. The time complexity when a button is pressed would only be O(n) with O(n) memory usage. You can see the The average time of selecting each button for the second enhancement was 0.026 seconds per filter, and the comparison of enhancement 2 and the original in _Figure 4b_.
 
 When completing this enhancement, I was able to design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices. I also was able to create a table and chart with the enhancements that would be of use in measuring the trade-offs of each different algorithm using small amounts of code to potentially have huge cost savings at scale, especially for a cloud based application. This demonstrates an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
 
 ---
-### View The Code 
+### Artifacts Algorithms and Data Structures 
 
 
 Algorithms and Data Structures [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/Algorithms%20and%20Data%20Structures/Original)
