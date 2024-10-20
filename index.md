@@ -30,7 +30,7 @@ In terms of software engineering and design; I demonstrated an ability, to use w
 
 <div style="text-align: center;">
     <img src="assets/images/contactApp_GUI.png" width="100%" title="Screenshot of JavaFX Frontend for a Contact Application" />
-    <p><em>Figure 1a - Contact Application Screenshot - CS20 Software Test Automation and QA</em></p>
+    <p><em>Figure 1a - Contact Application Screenshot - CS-320 Software Test Automation and QA</em></p>
 </div>
 
 Security was another important area of focus during my studies. Through the program, I developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources by completing the _Database and Software Engineering and Design_ enhancements. I also learned how to safeguard applications by integrating security best practices. Whether it was protecting database connections or implementing secure API calls, my projects emphasized the need for data integrity and secure communication channels. This included implementing prepared statements for any SQL queries and user input validation of the data. I also learned the power of using static tools for dependency checking. Specifically, by attaching a maven plugin, you can scan and have a report for each of your dependencies. This can be included in the Github Actions, and can be configured to run as much as desired.
