@@ -8,7 +8,7 @@ This portfolio showcases some of the skills and knowledge that I have gained fro
 ### _Table of Contents_
 
 &nbsp;[Professional Self-Assessment](#self-assessment "Professional Self-Assessment")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;[Code Review](#code-review "Code Review")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Code Review](#code-review "Code Review")<br/>
 &nbsp;[Software Engineering and Design](#software-engineering-and-design "Software Engineering and Design")<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#artifacts-software-engineering-and-design "Artifacts Software Engineering and Design")<br/>
 &nbsp;[Databases](#databases "Databases")<br/>
