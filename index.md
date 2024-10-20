@@ -5,18 +5,14 @@
 
 
 &nbsp;[Professional Self-Assessment](#self-assessment "Professional Self-Assessment")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Code Review Videos Link_](#code-review "Code Review")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[_Code Review_](#code-review "Code Review")<br/>
 &nbsp;[Software Engineering and Design](#software-engineering-and-design "Software Engineering and Design")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#artifact-software-design-and-engineering "Artifact Software Design and Engineering")<br/>
-&nbsp;[Algorithms and Data Structure](#algorithms "Algorithms and Data Structure")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Artifact Algorithms and Data Structure_](#artifact-algorithms-and-data-structures "Artifact Algorithms and Data Structure")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#view-the-code "View the Code")<br/>
 &nbsp;[Databases](#databases "Databases")<br/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[_Artifact Databases_](#artifact-databases "Artifact Databases")<br/>
-&nbsp;[Reviews](#reviews "ePortfolio Reviews")
+&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#view-the-code "View the Code")<br/>
+&nbsp;[Algorithms and Data Structure](#algos-and-ds "Algorithms and Data Structures")<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;[View the Code](#view-the-code "View the Code")<br/>
 
-
-
-# Professional Self Assessment 
 
 <img id="self-assessment" src="assets/images/header_photos/professional_self_assessment.png" alt="Professional Self-Assessment" title="Professional Self-Assessment" />
 
@@ -27,7 +23,7 @@ One of the key strengths I developed during the program is my ability to collabo
 In addition to collaboration, my ability to communicate technical concepts to stakeholders has grown substantially. Throughout my projects, I have consistently had to present complex algorithms and system designs in ways that are easily digestible for non-technical audiences. For example, I optimized API usage by reducing unnecessary calls, which not only improved system performance but I was then able to present the data in a more user-friendly format. These experiences helped me refine my ability to bridge the gap between technical and business perspectives, an important skill for anyone.
 The program also strengthened my understanding of fundamental computer science concepts, particularly data structures and algorithms. I gained hands-on experience implementing algorithms that optimized system performance and user experience. For instance, the project I referred to earlier involved refining an algorithm to reduce API calls, which resulted in faster data retrieval and more responsive applications. Understanding how to choose the right data structures to achieve these performance gains was critical, as well as the unique trade off of choosing between consuming more memory, or having certain functions take extra time.
 
-In terms of software engineering and design, I designed and developed a JavaFX GUI application that integrates with a MySQL database. This project solidified my understanding of full-stack development, from front-end design to back-end database management. By implementing MySQL within the JavaFX application, I ensured that the system had robust data storage capabilities, which could efficiently handle complex queries and transactions. I was able to keep the program loosely coupled such that it is easily extensible. This was accomplished by keeping to the Model View Controller (MVC) design pattern, and ensuing that any change in one of areas would have minimal impact on any other. This pattern also ensures that you can easily perform integration and unit testing on each particular aspect of the application.
+In terms of software engineering and design, I designed and developed a JavaFX GUI application that integrates with a MySQL database. This project solidified my understanding of full-stack development, from front-end design to back-end database management. By implementing MySQL within the JavaFX application, I ensured that the system had robust data storage capabilities, which could efficiently handle complex queries and transactions. I was able to keep the program loosely coupled such that it is easily extensible. This was accomplished by keeping to the Model View Controller (MVC) design pattern, and ensuing that any change in one of areas would have minimal impact on any other. You can see the graphical user interface in _Figure 1_ below. This pattern also ensures that you can easily perform integration and unit testing on each particular aspect of the application.
 
 <div style="text-align: center;">
     <img src="assets/images/contactApp_GUI.png" width="100%" title="Screenshot of JavaFX Frontend for a Contact Application" />
@@ -48,8 +44,7 @@ In conclusion, the Computer Science program has provided me with the technical e
     </a>
 </div>
 
-# Code Review 
-<img id="self-assessment" src="assets/images/header_photos/code_review.png" alt="Code Review" title="Code Review" />
+<img id="code-review" src="assets/images/header_photos/code_review.png" alt="Code Review" title="Code Review" />
 
 The purpose of a code review is to ensure quality and standards are upheld. This is a vital step for imparting knowledge, early bug detection, and improving collaboration on the development team. This is a highly important step in producing quality code. Below, you can watch the code review that I completed before starting on the enhancements that are displayed in this portfolio.
 
@@ -67,8 +62,6 @@ Figure 1 - Software Design and Engineering Code Review Video
     </a>
 </div>
 
-
-# Software Engineering and Design
 
 <img id="software-engineering-and-design" src="assets/images/header_photos/software_engineering_and_design.png" alt="Software Engineering and Design.png" title="Software Engineering and Design" />
 
@@ -95,7 +88,7 @@ While creating the Github Actions, I was able to start making the beginnings of 
 ---
 
 ## Milestones Completed
-{: .no_toc}
+
 
 * Completed an MVC application
    * Loosely coupled and easily tested and extensible
@@ -105,7 +98,6 @@ While creating the Github Actions, I was able to start making the beginnings of 
 
 ---
 ### View The Code 
-{: .no_toc}
 
 Databases and Software Engineering and Design [Enhanced](https://github.com/SamWalts/samwalts.github.io/tree/main/Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
 
@@ -154,7 +146,6 @@ The skills that I demonstrate with this enhancement include a full stack capabil
 
 ---
 ### View The Code 
-{: .no_toc}
 
 Databases and Software Engineering and Design [Enhancement](https://github.com/SamWalts/samwalts.github.io/tree/main/Database%20and%20Software%20Engineering%20and%20Design/Enhancement)
 
@@ -170,35 +161,36 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 </div>
 
 # Algorithms and Data Structures
-<img id="self-assessment" src="assets/images/header_photos/algorithms_and_data_structures.png" alt="Algorithms and Data Structures" title="Algorithms and Data Structures" />
+<img id="algos-and-ds" src="assets/images/header_photos/algorithms_and_data_structures.png" alt="Algorithms and Data Structures" title="Algorithms and Data Structures" />
 
 * __I will show that I have employed strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science__
 * __I will show that I have designed, developed, and delivered professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts__
 * __I will prove that I have designed and evaluateed computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices__
 
   
-The artifact I chose for the algorithms and data structures was the Salvare Search for Rescue Web application, that is run in Jupyter Notebooks. The application aims to connect the rescue organization with dogs that can be trained for different types or rescue operations. It does this using a Jupyter Notebook with a Dash application for the web page layouts, which includes surfacing the spreadsheet of selected animals, a selection of radio buttons for the parameters required for each type of rescue, and a graph to show a breakdown of the different animals. The application uses a python API to interact with a MongoDB backend. Before I was able to enhance the project, I had to create a local instance of the MongoDB with the 10000 rows of animals. This was due to the instance available during class being spun down after the semester ended. The numbers in the table are an average of 5 tests, with the highest and lowest score removed, and the middle three averaged out.
+The artifact I chose for the algorithms and data structures was the Salvare Search for Rescue Web application, that is run in Jupyter Notebooks. The application aims to connect the rescue organization with dogs that can be trained for different types or rescue operations. It does this using a Jupyter Notebook with a Dash application for the web page layouts, which includes surfacing the spreadsheet of selected animals, a selection of radio buttons for the parameters required for each type of rescue, and a graph to show a breakdown of the different animals. The application uses a python API to interact with a MongoDB backend. Before I was able to enhance the project, I had to create a local instance of the MongoDB with the 10,000 rows of animals. This was due to the instance available during class being spun down after the semester ended. The numbers in the table are an average of 5 tests, with the highest and lowest score removed, and the middle three averaged out.
 
 <div style="text-aligh: center;">
     <img src="./assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png" width="720px" title="Screen Loading Times Chart" />
-  <p><em>Chart 1 - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
+  <p><em>Figure 1a - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
 </div>
 
 A major inefficiency from the original code was that every time there was a need to sort, or filter the Panda’s data frame, the code would make a new API call to the database, pass the database the filtering parameters, then return the data. While running the local instance, the time for each of these calls to complete is shown in _Chart 1_ in the Original Artifact Time column of _Table 1_, and is still very quick. However, with larger datasets, and cloud based systems, this could lead to massive load times, and increased cloud costs due to repeated and unnecessary database calls. The enhancements and experiments I created are designed to showcase the potential time and cost savings of using the dataframes more effeciently. The first enhancement experiment that I made was to use the original data frame and then create cached dataframes by storing the new frame that was filtered from the original into their own seperate dataframes.
 
-```python
-df_Mountain_Wilderness = df[            # DF for Mountain / Wilderness
-                (df['animal_type'] == 'Dog') &
-                (df['breed'].isin(['German Shepherd', 'Alaskan Malamute', 'Old English Sheepdog', 'Siberian Husky', 'Rottweiler'])) &
-                (df['sex_upon_outcome'] == 'Intact Male') &
-                (df['age_upon_outcome_in_weeks'] >= 26) &
-                (df['age_upon_outcome_in_weeks'] <= 156)].copy()
-```
+| Type of Search        | Original Artifact Time (s) | Enhancement 1 Time (s) | Enhancement 2 Time (s) |
+|:----------------------|:---------------------------|:-----------------------|:-----------------------|
+| Water                 | 0.0140                     | 0                      | 0.0065                 |
+| Mountain / Wilderness | 0.0120                     | 0                      | 0.0055                 |
+| Disaster / Tracking   | 0.0105                     | 0                      | 0.0050                 |
+| Reset                 | 0.1889                     | 0.0987                 | 0.1017                 |
+
+_Figure 5b - Table of loading times for the Original, Enhancement 1, and Enhancement2, in seconds_
+
 
 This uses O(n) * (number of additional dataframes) memory and keeps the O(1) time complexity for retrieving the cached dataframes, but creates the copy for instant reference in the application by removing the extra database calls. This is the best option for the user experience, as shown above in the _Chart 1_ bar Chart, with an essentially instant response time when selecting different types of rescue animals. However, this does cache each of the data frames, and will use extra memory to do so. This is not a problem for smaller data sets, but with every added option, the memory required would rapidly increase. The “Reset” button is the only button that will make a new API call to retrieve the data in the MongoDB database and catch any potential updates. 
 
 ## Experiment Synopsis
-{: .no_toc}
+
 
 The time was captured by using the time module in Python, and making a start, and end point inside of the update_dashboard() method, then making a print statement with the elapsed time. I would then select each option and read from the console the time for each. The tests were then run 5 times each, and the result is the _Figure 1_ table, and _Figure 2_ bar chart of the average over 5 times.
   
@@ -209,7 +201,12 @@ The time was captured by using the time module in Python, and making a start, an
 | Disaster / Tracking   | 0.0105                     | 0                      | 0.0050                 |
 | Reset                 | 0.1889                     | 0.0987                 | 0.1017                 |
 
-_Table 1 - Table of loading times for the Original, Enhancement 1, and Enhancement2, in seconds_
+_Figure 5b - Table of loading times for the Original, Enhancement 1, and Enhancement2, in seconds_
+
+<div style="text-aligh: center;">
+    <img src="./assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png" width="720px" title="Screen Loading Times Chart" />
+  <p><em>Figure 1a - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
+</div>
 
 For the second experiment, I decided to create a middle ground that would remove the extra API calls, but not have the downsides of the increased memory usage due to caching every single one of the filtered data frames that enhancement 1 had. This option is enhancement 2, and you can see the the comparison of it in _Figure 1_ and _Figure 2_; instead of pre-filtering and storing the different search types in memory, this enhancement creates a data frame by applying the filter to the original data frame when the radio button is pressed. The potential network calls are the same as from enhancement 1, with a new data frame being called only when the “Reset” button is selected, and at the beginning of the program to populate the dashboard. The time complexity when a button is pressed would only be O(n) with O(n) memory usage. You can see the The average time of selecting each button for the second enhancement was 0.026 seconds per filter, and the comparison of enhancement 2 and the original in _Table 1_.
 
@@ -217,7 +214,7 @@ When completing this enhancement, I was able to design and evaluate computing so
 
 ---
 ### View The Code 
-{: .no_toc}
+
 
 Algorithms and Data Structures [Original](https://github.com/SamWalts/samwalts.github.io/tree/main/Algorithms%20and%20Data%20Structures/Original)
 
