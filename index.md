@@ -163,7 +163,6 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
     </a>
 </div>
 
-# Algorithms and Data Structures
 <img id="algos-and-ds" src="assets/images/header_photos/algorithms_and_data_structures.png" alt="Algorithms and Data Structures" title="Algorithms and Data Structures" />
 
 * __I will show that I have employed strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science__
