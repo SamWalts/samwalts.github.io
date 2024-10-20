@@ -1,8 +1,9 @@
-## Welcome!
+# Computer Science Capstone
+## CS-499 | SNHU
+
+## Welcome to My ePortfolio
 
 This portfolio showcases some of the skills and knowledge that I have gained from studying at Southern New Hampshire University (SNHU). This portfolio showcases the growth in my technical abilities by enhancing artifacts that were completed early in my academic career, and enhancing them in three categories, software engineering and design, databases, and algorithms and data structures. Each section will contain milestones that I have completed, with the original and enhanced artifacts located at the end of each section. You can refer to the _Table of Contents_ to quickly navigate the portfolio, and at the end of each section, easily move back to the top of the page using the _Back to Top_ buttons located at the end of each section.
-
-# Computer Science Capstone
 
 ## CS-499 | SNHU
 
@@ -208,12 +209,13 @@ The time was captured by using the time module in Python, and making a start, an
 
 _Figure 4b - Table of loading times for the Original, Enhancement 1, and Enhancement2, in seconds_
 
+
+For the second experiment, I decided to create a middle ground that would remove the extra API calls, but not have the downsides of the increased memory usage due to caching every single one of the filtered data frames that enhancement 1 had. This option is enhancement 2, and you can see the the comparison of it in _Figure 1_ and _Figure 2_; instead of pre-filtering and storing the different search types in memory, this enhancement creates a data frame by applying the filter to the original data frame when the radio button is pressed. The potential network calls are the same as from enhancement 1, with a new data frame being called only when the “Reset” button is selected, and at the beginning of the program to populate the dashboard. The time complexity when a button is pressed would only be O(n) with O(n) memory usage. You can see the The average time of selecting each button for the second enhancement was 0.026 seconds per filter, and the comparison of enhancement 2 and the original in _Figure 4b_.
+
 <div style="text-aligh: center;">
     <img src="./assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png" width="720px" title="Screen Loading Times Chart" />
   <p><em>Figure 4a - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
 </div>
-
-For the second experiment, I decided to create a middle ground that would remove the extra API calls, but not have the downsides of the increased memory usage due to caching every single one of the filtered data frames that enhancement 1 had. This option is enhancement 2, and you can see the the comparison of it in _Figure 1_ and _Figure 2_; instead of pre-filtering and storing the different search types in memory, this enhancement creates a data frame by applying the filter to the original data frame when the radio button is pressed. The potential network calls are the same as from enhancement 1, with a new data frame being called only when the “Reset” button is selected, and at the beginning of the program to populate the dashboard. The time complexity when a button is pressed would only be O(n) with O(n) memory usage. You can see the The average time of selecting each button for the second enhancement was 0.026 seconds per filter, and the comparison of enhancement 2 and the original in _Figure 4b_.
 
 When completing this enhancement, I was able to design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices. I also was able to create a table and chart with the enhancements that would be of use in measuring the trade-offs of each different algorithm using small amounts of code to potentially have huge cost savings at scale, especially for a cloud based application. This demonstrates an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
 
