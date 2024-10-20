@@ -26,7 +26,7 @@ One of the key strengths I developed during the program is my ability to collabo
 In addition to collaboration, my ability to communicate technical concepts to stakeholders has grown substantially. Throughout my projects, I have consistently had to present complex algorithms and system designs in ways that are easily digestible for non-technical audiences. For example, I optimized API usage by reducing unnecessary calls, which not only improved system performance but I was then able to present the data in a more user-friendly format. These experiences helped me refine my ability to bridge the gap between technical and business perspectives, an important skill for anyone. This shows that I designed and evaluated computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices by completing _Algorithms and Data Structures_ enhancement.
 The program also strengthened my understanding of fundamental computer science concepts, particularly data structures and algorithms. I gained hands-on experience implementing algorithms that optimized system performance and user experience. For instance, the project I referred to earlier involved refining an algorithm to reduce API calls, which resulted in faster data retrieval and more responsive applications. Understanding how to choose the right data structures to achieve these performance gains was critical, as well as the unique trade off of choosing between consuming more memory, or having certain functions take extra time.
 
-In terms of software engineering and design; I demonstrated and ability , I designed and developed a JavaFX GUI application that integrates with a MySQL database by completing the _Database and Software Engineering and Design_ enhancements. This project solidified my understanding of full-stack development, from front-end design to back-end database management. By implementing MySQL within the JavaFX application, I ensured that the system had robust data storage capabilities, which could efficiently handle complex queries and transactions. I was able to keep the program loosely coupled such that it is easily extensible. This was accomplished by keeping to the Model View Controller (MVC) design pattern, and ensuing that any change in one of areas would have minimal impact on any other. You can see the graphical user interface in _Figure 1a_ below. This pattern also ensures that you can easily perform integration and unit testing on each particular aspect of the application.
+In terms of software engineering and design; I demonstrated an ability, to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals by completing by completing the _Database and Software Engineering and Design_ enhancements. This project solidified my understanding of full-stack development, from front-end design to back-end database management. By implementing MySQL within the JavaFX application, I ensured that the system had robust data storage capabilities, which could efficiently handle complex queries and transactions. I was able to keep the program loosely coupled such that it is easily extensible. This was accomplished by keeping to the Model View Controller (MVC) design pattern, and ensuing that any change in one of areas would have minimal impact on any other. You can see the graphical user interface in _Figure 1a_ below. This pattern also ensures that you can easily perform integration and unit testing on each particular aspect of the application.
 
 <div style="text-align: center;">
     <img src="assets/images/contactApp_GUI.png" width="100%" title="Screenshot of JavaFX Frontend for a Contact Application" />
@@ -43,7 +43,7 @@ In conclusion, the Computer Science program has provided me with the technical e
 
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #7fb7aa; color: #ff0000; border-radius: 50px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
+        <button style="font-size: 15px; font-weight: 500; background: #7fb7aa; color: #ff0000; border-radius: 55px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
     </a>
 </div>
 
@@ -61,10 +61,9 @@ Figure 1b - Code Review of Original Artifacts
 
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #7fb7aa; color: #ff0000; border-radius: 50px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
+        <button style="font-size: 15px; font-weight: 500; background: #7fb7aa; color: #ff0000; border-radius: 55px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
     </a>
 </div>
-
 
 <img id="software-engineering-and-design" src="assets/images/header_photos/software_engineering_and_design.png" alt="Software Engineering and Design.png" title="Software Engineering and Design" />
 
@@ -112,7 +111,7 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 ---
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #7fb7aa; color: #ff0000; border-radius: 50px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
+        <button style="font-size: 15px; font-weight: 500; background: #7fb7aa; color: #ff0000; border-radius: 55px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
     </a>
 </div>
 
@@ -160,7 +159,7 @@ Databases and Software Engineering and Design [Original](https://github.com/SamW
 
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #7fb7aa; color: #ff0000; border-radius: 50px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
+        <button style="font-size: 15px; font-weight: 500; background: #7fb7aa; color: #ff0000; border-radius: 55px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
     </a>
 </div>
 
@@ -179,7 +178,7 @@ The artifact I chose for the algorithms and data structures was the Salvare Sear
   <p><em>Figure 4a - Bar chart of the orginal artifact and two options of enhancements - CS-340 Client/Server Development </em></p>
 </div>
 
-A major inefficiency from the original code was that every time there was a need to sort, or filter the Panda’s data frame, the code would make a new API call to the database, pass the database the filtering parameters, then return the data. While running the local instance, the time for each of these calls to complete is shown in _Chart 1_ in the Original Artifact Time column of _Table 1_, and is still very quick. However, with larger datasets, and cloud based systems, this could lead to massive load times, and increased cloud costs due to repeated and unnecessary database calls. The enhancements and experiments I created are designed to showcase the potential time and cost savings of using the dataframes more effeciently. The first enhancement experiment that I made was to use the original data frame and then create cached dataframes by storing the new frame that was filtered from the original into their own seperate dataframes.
+A major inefficiency from the original code was that every time there was a need to sort, or filter the Panda’s data frame, the code would make a new API call to the database, pass the database the filtering parameters, then return the data. While running the local instance, the time for each of these calls to complete is shown in _Figure 4a_ in the Original Artifact Time column of _Figure 4b_, and is still very quick. However, with larger datasets, and cloud based systems, this could lead to massive load times, and increased cloud costs due to repeated and unnecessary database calls. The enhancements and experiments I created are designed to showcase the potential time and cost savings of using the dataframes more effeciently. The first enhancement experiment that I made was to use the original data frame and then create cached dataframes by storing the new frame that was filtered from the original into their own seperate dataframes.
 
 | Type of Search        | Original Artifact Time (s) | Enhancement 1 Time (s) | Enhancement 2 Time (s) |
 |:----------------------|:---------------------------|:-----------------------|:-----------------------|
@@ -208,7 +207,7 @@ The time was captured by using the time module in Python, and making a start, an
 _Figure 4b - Table of loading times for the Original, Enhancement 1, and Enhancement2, in seconds_
 
 
-For the second experiment, I decided to create a middle ground that would remove the extra API calls, but not have the downsides of the increased memory usage due to caching every single one of the filtered data frames that enhancement 1 had. This option is enhancement 2, and you can see the the comparison of it in _Figure 1_ and _Figure 2_; instead of pre-filtering and storing the different search types in memory, this enhancement creates a data frame by applying the filter to the original data frame when the radio button is pressed. The potential network calls are the same as from enhancement 1, with a new data frame being called only when the “Reset” button is selected, and at the beginning of the program to populate the dashboard. The time complexity when a button is pressed would only be O(n) with O(n) memory usage. You can see the The average time of selecting each button for the second enhancement was 0.026 seconds per filter, and the comparison of enhancement 2 and the original in _Figure 4b_.
+For the second experiment, I decided to create a middle ground that would remove the extra API calls, but not have the downsides of the increased memory usage due to caching every single one of the filtered data frames that enhancement 1 had. This option is enhancement 2, and you can see the the comparison of it in _Figure 4a_ and _Figure 4b_; instead of pre-filtering and storing the different search types in memory, this enhancement creates a data frame by applying the filter to the original data frame when the radio button is pressed. The potential network calls are the same as from enhancement 1, with a new data frame being called only when the “Reset” button is selected, and at the beginning of the program to populate the dashboard. The time complexity when a button is pressed would only be O(n) with O(n) memory usage. You can see the The average time of selecting each button for the second enhancement was 0.026 seconds per filter, and the comparison of enhancement 2 and the original in _Figure 4b_.
 
 <div style="text-aligh: center;">
     <img src="./assets/images/SNHU_CS_499_Algorithms_BarChart_Times.png" width="720px" title="Screen Loading Times Chart" />
@@ -228,6 +227,6 @@ Algorithms and Data Structures [Enhancement](https://github.com/SamWalts/samwalt
 ---
 <div style="text-align: right;">
     <a href="#">
-        <button style="font-size: 10px; font-weight: 500; background: #7fb7aa; color: #ff0000; border-radius: 50px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
+        <button style="font-size: 15px; font-weight: 500; background: #7fb7aa; color: #ff0000; border-radius: 55px; border-style: solid; border-color: #7fb7aa; padding: 5px 5px;">Back to Top</button>
     </a>
 </div>
