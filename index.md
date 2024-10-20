@@ -72,25 +72,25 @@ Figure 1b - Code Review of Original Artifacts
 * __I will show that I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources__
 
   
-This artifact was created using the code from CS-320, a test automation and QA course, that contained only the Contact and ContactService classes with the accompanying tests classes. I designed a graphical user interface (GUI) that would turn the middle services into a full contact application, using Java with JavaFX, CSS, and MySQL. To handle dependencies, and accommodate JavaFX and MySQL, I have added a Maven file to handle dependencies and integrated Github Actions that build the project based on the pom file, will run the unit tests, and then build and package the jar file for download. Please see _Figure 3a_ below for a completed run on Github Action.
+This artifact was created using the code from CS-320, a test automation and QA course, that contained only the Contact and ContactService classes with the accompanying tests classes. I designed a graphical user interface (GUI) that would turn the middle services into a full contact application, using Java with JavaFX, CSS, and MySQL. To handle dependencies, and accommodate JavaFX and MySQL, I have added a Maven file to handle dependencies and integrated Github Actions that build the project based on the pom file, will run the unit tests, and then build and package the jar file for download. Please see _Figure 2a_ below for a completed run on Github Actions.
 
 <div style="text-align: center;">
     <img src="assets/images/ContactApp_Github_CI_Screenshot.png" width="100%" title="Github Actions CI/CD success" />
-    <p><em>Figure 3a - Github Actions for Portfolio Enhancement - CS20 Software Test Automation and QA</em></p>
+    <p><em>Figure 2a - Github Actions for Portfolio Enhancement - CS-320 Software Test Automation and QA</em></p>
 </div>
 
 With this continuous integration, continuous delivery (CI/CD) pipeline, I showcase my devops skills. While creating the project, I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. I was also able to keep the application loosely coupled, while integrating a CI pipeline to automatically run the tests, and build the finished application. In addition, the user input is validated, secured by my implementation of the database with JDBC and prepared statements. This shows that I have developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.  
 
 <div style="text-align: center;">
     <img src="assets/images/error_field_screenshot.png" width="100%" title="Contact App Error Surfacing" />
-    <p><em>Figure 3b - Input Field Validation - CS20 Software Test Automation and QA</em></p>
+    <p><em>Figure 2b - Input Field Validation - CS-320 Software Test Automation and QA</em></p>
 </div>
 
-While creating the Github Actions, I was able to start making the beginnings of a CI pipeline and start the process of running the integration tests for regressions that occur when you are making any code changes. This included writing the .yml file and creating the rules that pull requests must pass certain checks. While the application itself is simple, I am able to show my design processes, and best practices from a design, security, and efficiency standpoint. This included keeping following the Model View Controller (MVC) pattern to separate the concerns of the model from the view and the controller (_See Figure 3c for UML Diagram_). This was accomplished by having minimal validity checks on the controller, to only see if a field was empty as shown on _Figure 3b_. If the fields check is completed, then the data is passed to the model, checked again for data validity, and inserted into the database, or if there is an error, have the error surfaced on the View.
+While creating the Github Actions, I was able to start making the beginnings of a CI pipeline and start the process of running the integration tests for regressions that occur when you are making any code changes. This included writing the .yml file and creating the rules that pull requests must pass certain checks. While the application itself is simple, I am able to show my design processes, and best practices from a design, security, and efficiency standpoint. This included keeping following the Model View Controller (MVC) pattern to separate the concerns of the model from the view and the controller (_See Figure 2c for UML Diagram_). This was accomplished by having minimal validity checks on the controller, to only see if a field was empty as shown on _Figure 2b_. If the fields check is completed, then the data is passed to the model, checked again for data validity, and inserted into the database, or if there is an error, have the error surfaced on the View.
 
 <div style="text-align: center;">
     <img src="assets/images/ContactApp_UML_Diagram_10-18-24.png" width="100%" title="UML Class Diagram - CS320 Software Test Automation and QA" />
-    <p><em>Figure 3c - UML diagram CS320 - CS320 Software Test Automation and QA</em></p>
+    <p><em>Figure 2c - UML diagram Contact Application - CS-320 Software Test Automation and QA</em></p>
 </div>
 
 ---
@@ -126,7 +126,7 @@ The artifact that I chose for the Database enhancement was the same artifact I c
 
 <div style="text-align: center;">
     <img src="assets/images/ContactApp_Test_Coverage.png" width="100%" title="Github actions screenshot - CS320 Software Test Automation and QA Enhancement" />
-    <p><em>Figure 3a - Test Coverage Analysis - CS20 Software Test Automation and QA</em></p>
+    <p><em>Figure 3a - Test Coverage Analysis - CS-320 Software Test Automation and QA</em></p>
 </div>
 
 The skills that I demonstrate with this enhancement include a full stack capability with the Java language. This includes how to surface errors on the main page, error handling for SQL errors, and how to manage resource intensive operations such as handling the JDBC. I continue to demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. This includes utilizing an industry leading database, MySQL. I was able to develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. This was enforced by using encapsulation for the program and enforcing the Model View Controller design pattern for safety and security, to create easily extensible software that is well written and well tested.
